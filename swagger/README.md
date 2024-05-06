@@ -7,9 +7,9 @@ title: Swagger
 
 ![Release](https://img.shields.io/github/v/tag/gofiber/contrib?filter=swagger*)
 [![Discord](https://img.shields.io/discord/704680098577514527?style=flat&label=%F0%9F%92%AC%20discord&color=00ACD7)](https://gofiber.io/discord)
-![Test](https://github.com/gofiber/contrib/workflows/Tests/badge.svg)
-![Security](https://github.com/gofiber/contrib/workflows/Security/badge.svg)
-![Linter](https://github.com/gofiber/contrib/workflows/Linter/badge.svg)
+![Test](https://github.com/usernamenotpresent/contrib/workflows/Tests/badge.svg)
+![Security](https://github.com/usernamenotpresent/contrib/workflows/Security/badge.svg)
+![Linter](https://github.com/usernamenotpresent/contrib/workflows/Linter/badge.svg)
 
 Swagger middleware for [Fiber](https://github.com/gofiber/fiber). The middleware handles Swagger UI.
 
@@ -34,7 +34,7 @@ go mod init github.com/<user>/<repo>
 ```
 And then install the swagger middleware:
 ```bash
-go get github.com/gofiber/contrib/swagger
+go get github.com/usernamenotpresent/contrib/swagger
 ```
 
 ### Examples
@@ -42,7 +42,7 @@ Import the middleware package
 ```go
 import (
   "github.com/gofiber/fiber/v2"
-  "github.com/gofiber/contrib/swagger"
+  "github.com/usernamenotpresent/contrib/swagger"
 )
 ```
 

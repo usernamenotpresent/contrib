@@ -4,9 +4,9 @@ id: socketio
 # Socket.io
 
 ![Release](https://img.shields.io/github/v/tag/gofiber/contrib?filter=socketio*)
-![Test](https://github.com/gofiber/contrib/workflows/Tests/badge.svg)
-![Security](https://github.com/gofiber/contrib/workflows/Security/badge.svg)
-![Linter](https://github.com/gofiber/contrib/workflows/Linter/badge.svg)
+![Test](https://github.com/usernamenotpresent/contrib/workflows/Tests/badge.svg)
+![Security](https://github.com/usernamenotpresent/contrib/workflows/Security/badge.svg)
+![Linter](https://github.com/usernamenotpresent/contrib/workflows/Linter/badge.svg)
 
 WebSocket wrapper for [Fiber](https://github.com/gofiber/fiber) with events support and inspired by [Socket.io](https://github.com/socketio/socket.io)
 
@@ -16,7 +16,7 @@ WebSocket wrapper for [Fiber](https://github.com/gofiber/fiber) with events supp
 
 ```
 go get -u github.com/gofiber/fiber/v2
-go get -u github.com/gofiber/contrib/socketio
+go get -u github.com/usernamenotpresent/contrib/socketio
 ```
 
 ## Signatures
@@ -64,8 +64,8 @@ import (
     "fmt"
     "log"
 
-    "github.com/gofiber/contrib/socketio"
-    "github.com/gofiber/contrib/websocket"
+    "github.com/usernamenotpresent/contrib/socketio"
+    "github.com/usernamenotpresent/contrib/websocket"
     "github.com/gofiber/fiber/v2"
 )
 

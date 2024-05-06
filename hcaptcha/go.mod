@@ -1,4 +1,4 @@
-module github.com/gofiber/contrib/hcaptcha
+module github.com/usernamenotpresent/contrib/hcaptcha
 
 go 1.21
 

@@ -6,9 +6,9 @@ id: fibernewrelic
 
 ![Release](https://img.shields.io/github/v/tag/gofiber/contrib?filter=fibernewrelic*)
 [![Discord](https://img.shields.io/discord/704680098577514527?style=flat&label=%F0%9F%92%AC%20discord&color=00ACD7)](https://gofiber.io/discord)
-![Test](https://github.com/gofiber/contrib/workflows/Tests/badge.svg)
-![Security](https://github.com/gofiber/contrib/workflows/Security/badge.svg)
-![Linter](https://github.com/gofiber/contrib/workflows/Linter/badge.svg)
+![Test](https://github.com/usernamenotpresent/contrib/workflows/Tests/badge.svg)
+![Security](https://github.com/usernamenotpresent/contrib/workflows/Security/badge.svg)
+![Linter](https://github.com/usernamenotpresent/contrib/workflows/Linter/badge.svg)
 
 [NewRelic](https://github.com/newrelic/go-agent) support for Fiber.
 
@@ -18,7 +18,7 @@ id: fibernewrelic
 
 ```
 go get -u github.com/gofiber/fiber/v2
-go get -u github.com/gofiber/contrib/fibernewrelic
+go get -u github.com/usernamenotpresent/contrib/fibernewrelic
 ```
 
 ## Signature
@@ -45,7 +45,7 @@ package main
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/contrib/fibernewrelic"
+	"github.com/usernamenotpresent/contrib/fibernewrelic"
 )
 
 func main() {
@@ -74,7 +74,7 @@ package main
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/contrib/fibernewrelic"
+	"github.com/usernamenotpresent/contrib/fibernewrelic"
 	"github.com/newrelic/go-agent/v3/newrelic"
 )
 

@@ -6,9 +6,9 @@ id: paseto
 
 ![Release](https://img.shields.io/github/v/tag/gofiber/contrib?filter=paseto*)
 [![Discord](https://img.shields.io/discord/704680098577514527?style=flat&label=%F0%9F%92%AC%20discord&color=00ACD7)](https://gofiber.io/discord)
-![Test](https://github.com/gofiber/contrib/workflows/Tests/badge.svg)
-![Security](https://github.com/gofiber/contrib/workflows/Security/badge.svg)
-![Linter](https://github.com/gofiber/contrib/workflows/Linter/badge.svg)
+![Test](https://github.com/usernamenotpresent/contrib/workflows/Tests/badge.svg)
+![Security](https://github.com/usernamenotpresent/contrib/workflows/Security/badge.svg)
+![Linter](https://github.com/usernamenotpresent/contrib/workflows/Linter/badge.svg)
 
 PASETO returns a Web Token (PASETO) auth middleware.
 
@@ -24,7 +24,7 @@ This middleware supports Fiber v2.
 
 ```
 go get -u github.com/gofiber/fiber/v2
-go get -u github.com/gofiber/contrib/paseto
+go get -u github.com/usernamenotpresent/contrib/paseto
 go get -u github.com/o1egl/paseto
 ```
 
@@ -75,7 +75,7 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/o1egl/paseto"
 
-	pasetoware "github.com/gofiber/contrib/paseto"
+	pasetoware "github.com/usernamenotpresent/contrib/paseto"
 )
 
 const secretSymmetricKey = "symmetric-secret-key (size = 32)"
@@ -173,7 +173,7 @@ import (
 
 	"github.com/o1egl/paseto"
 
-	pasetoware "github.com/gofiber/contrib/paseto"
+	pasetoware "github.com/usernamenotpresent/contrib/paseto"
 )
 
 const secretSymmetricKey = "symmetric-secret-key (size = 32)"
@@ -288,7 +288,7 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 
-	pasetoware "github.com/gofiber/contrib/paseto"
+	pasetoware "github.com/usernamenotpresent/contrib/paseto"
 )
 
 const privateKeySeed = "e9c67fe2433aa4110caf029eba70df2c822cad226b6300ead3dcae443ac3810f"

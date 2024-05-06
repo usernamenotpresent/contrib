@@ -1,4 +1,4 @@
-module github.com/gofiber/contrib/fibersentry
+module github.com/usernamenotpresent/contrib/fibersentry
 
 go 1.18
 

@@ -6,9 +6,9 @@ id: jwt
 
 ![Release](https://img.shields.io/github/v/tag/gofiber/contrib?filter=jwt*)
 [![Discord](https://img.shields.io/discord/704680098577514527?style=flat&label=%F0%9F%92%AC%20discord&color=00ACD7)](https://gofiber.io/discord)
-![Test](https://github.com/gofiber/contrib/workflows/Tests/badge.svg)
-![Security](https://github.com/gofiber/contrib/workflows/Security/badge.svg)
-![Linter](https://github.com/gofiber/contrib/workflows/Linter/badge.svg)
+![Test](https://github.com/usernamenotpresent/contrib/workflows/Tests/badge.svg)
+![Security](https://github.com/usernamenotpresent/contrib/workflows/Security/badge.svg)
+![Linter](https://github.com/usernamenotpresent/contrib/workflows/Linter/badge.svg)
 
 JWT returns a JSON Web Token (JWT) auth middleware.
 For valid token, it sets the user in Ctx.Locals and calls next handler.
@@ -25,7 +25,7 @@ This middleware supports Fiber v1 & v2, install accordingly.
 
 ```
 go get -u github.com/gofiber/fiber/v2
-go get -u github.com/gofiber/contrib/jwt
+go get -u github.com/usernamenotpresent/contrib/jwt
 go get -u github.com/golang-jwt/jwt/v5
 ```
 
@@ -60,7 +60,7 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 
-	jwtware "github.com/gofiber/contrib/jwt"
+	jwtware "github.com/usernamenotpresent/contrib/jwt"
 	"github.com/golang-jwt/jwt/v5"
 )
 
@@ -161,7 +161,7 @@ import (
 
 	"github.com/golang-jwt/jwt/v5"
 
-	jwtware "github.com/gofiber/contrib/jwt"
+	jwtware "github.com/usernamenotpresent/contrib/jwt"
 )
 
 var (
@@ -268,7 +268,7 @@ import (
 	"fmt"
   "github.com/gofiber/fiber/v2"
 
-  jwtware "github.com/gofiber/contrib/jwt"
+  jwtware "github.com/usernamenotpresent/contrib/jwt"
   "github.com/golang-jwt/jwt/v5"
 )
 

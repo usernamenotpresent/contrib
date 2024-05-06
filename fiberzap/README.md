@@ -6,9 +6,9 @@ id: fiberzap
 
 ![Release](https://img.shields.io/github/v/tag/gofiber/contrib?filter=fiberzap*)
 [![Discord](https://img.shields.io/discord/704680098577514527?style=flat&label=%F0%9F%92%AC%20discord&color=00ACD7)](https://gofiber.io/discord)
-![Test](https://github.com/gofiber/contrib/workflows/Tests/badge.svg)
-![Security](https://github.com/gofiber/contrib/workflows/Security/badge.svg)
-![Linter](https://github.com/gofiber/contrib/workflows/Linter/badge.svg)
+![Test](https://github.com/usernamenotpresent/contrib/workflows/Tests/badge.svg)
+![Security](https://github.com/usernamenotpresent/contrib/workflows/Security/badge.svg)
+![Linter](https://github.com/usernamenotpresent/contrib/workflows/Linter/badge.svg)
 
 [Zap](https://github.com/uber-go/zap) logging support for Fiber.
 
@@ -20,7 +20,7 @@ This middleware supports Fiber v2.
 
 ```
 go get -u github.com/gofiber/fiber/v2
-go get -u github.com/gofiber/contrib/fiberzap/v2
+go get -u github.com/usernamenotpresent/contrib/fiberzap/v2
 go get -u go.uber.org/zap
 ```
 
@@ -52,7 +52,7 @@ import (
     "log"
 
     "github.com/gofiber/fiber/v2"
-    "github.com/gofiber/contrib/fiberzap/v2"
+    "github.com/usernamenotpresent/contrib/fiberzap/v2"
     "go.uber.org/zap"
 )
 
@@ -96,7 +96,7 @@ package main
 
 import (
 	"context"
-	"github.com/gofiber/contrib/fiberzap/v2"
+	"github.com/usernamenotpresent/contrib/fiberzap/v2"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/log"
 )

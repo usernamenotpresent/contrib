@@ -6,9 +6,9 @@ id: fibersentry
 
 ![Release](https://img.shields.io/github/v/tag/gofiber/contrib?filter=fibersentry*)
 [![Discord](https://img.shields.io/discord/704680098577514527?style=flat&label=%F0%9F%92%AC%20discord&color=00ACD7)](https://gofiber.io/discord)
-![Test](https://github.com/gofiber/contrib/workflows/Tests/badge.svg)
-![Security](https://github.com/gofiber/contrib/workflows/Security/badge.svg)
-![Linter](https://github.com/gofiber/contrib/workflows/Linter/badge.svg)
+![Test](https://github.com/usernamenotpresent/contrib/workflows/Tests/badge.svg)
+![Security](https://github.com/usernamenotpresent/contrib/workflows/Security/badge.svg)
+![Linter](https://github.com/usernamenotpresent/contrib/workflows/Linter/badge.svg)
 
 [Sentry](https://sentry.io/) support for Fiber.
 
@@ -20,7 +20,7 @@ This middleware supports Fiber v2.
 
 ```
 go get -u github.com/gofiber/fiber/v2
-go get -u github.com/gofiber/contrib/fibersentry
+go get -u github.com/usernamenotpresent/contrib/fibersentry
 go get -u github.com/getsentry/sentry-go
 ```
 
@@ -54,7 +54,7 @@ import (
 	"log"
 
 	"github.com/getsentry/sentry-go"
-	"github.com/gofiber/contrib/fibersentry"
+	"github.com/usernamenotpresent/contrib/fibersentry"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/utils"
 )

@@ -1,4 +1,4 @@
-module github.com/gofiber/contrib/fibernewrelic
+module github.com/usernamenotpresent/contrib/fibernewrelic
 
 go 1.18
 

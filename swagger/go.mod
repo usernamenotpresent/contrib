@@ -1,4 +1,4 @@
-module github.com/gofiber/contrib/swagger
+module github.com/usernamenotpresent/contrib/swagger
 
 go 1.18
 

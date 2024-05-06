@@ -1,10 +1,10 @@
-module github.com/gofiber/contrib/socketio
+module github.com/usernamenotpresent/contrib/socketio
 
 go 1.20
 
 require (
 	github.com/fasthttp/websocket v1.5.8
-	github.com/gofiber/contrib/websocket v1.3.1
+	github.com/usernamenotpresent/contrib/websocket v1.3.1
 	github.com/gofiber/fiber/v2 v2.52.4
 	github.com/google/uuid v1.6.0
 	github.com/stretchr/testify v1.9.0

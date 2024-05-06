@@ -1,4 +1,4 @@
-module github.com/gofiber/contrib/otelfiber/v2
+module github.com/usernamenotpresent/contrib/otelfiber/v2
 
 go 1.19
 

@@ -6,9 +6,9 @@ id: loadshed
 
 ![Release](https://img.shields.io/github/v/tag/gofiber/contrib?filter=loadshed*)
 [![Discord](https://img.shields.io/discord/704680098577514527?style=flat&label=%F0%9F%92%AC%20discord&color=00ACD7)](https://gofiber.io/discord)
-![Test](https://github.com/gofiber/contrib/workflows/Tests/badge.svg)
-![Security](https://github.com/gofiber/contrib/workflows/Security/badge.svg)
-![Linter](https://github.com/gofiber/contrib/workflows/Linter/badge.svg)
+![Test](https://github.com/usernamenotpresent/contrib/workflows/Tests/badge.svg)
+![Security](https://github.com/usernamenotpresent/contrib/workflows/Security/badge.svg)
+![Linter](https://github.com/usernamenotpresent/contrib/workflows/Linter/badge.svg)
 
 The LoadShed middleware for [Fiber](https://github.com/gofiber/fiber) is designed to help manage server load by shedding requests based on certain load criteria.
 
@@ -20,7 +20,7 @@ This middleware supports Fiber v2
 
 ```
 go get -u github.com/gofiber/fiber/v2
-go get -u github.com/gofiber/contrib/loadshed
+go get -u github.com/usernamenotpresent/contrib/loadshed
 ```
 
 ## Signatures
@@ -38,7 +38,7 @@ package main
 
 import (
   "github.com/gofiber/fiber/v2"
-  loadshed "github.com/gofiber/contrib/loadshed"
+  loadshed "github.com/usernamenotpresent/contrib/loadshed"
 )
 
 func main() {

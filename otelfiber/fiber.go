@@ -18,7 +18,7 @@ import (
 
 const (
 	tracerKey           = "gofiber-contrib-tracer-fiber"
-	instrumentationName = "github.com/gofiber/contrib/otelfiber"
+	instrumentationName = "github.com/usernamenotpresent/contrib/otelfiber"
 
 	MetricNameHttpServerDuration       = "http.server.duration"
 	MetricNameHttpServerRequestSize    = "http.server.request.size"

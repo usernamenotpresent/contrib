@@ -1,4 +1,4 @@
-module github.com/gofiber/contrib/fiberi18n/v2
+module github.com/usernamenotpresent/contrib/fiberi18n/v2
 
 go 1.19
 

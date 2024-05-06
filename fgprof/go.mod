@@ -1,4 +1,4 @@
-module github.com/gofiber/contrib/fgprof
+module github.com/usernamenotpresent/contrib/fgprof
 
 go 1.19
 

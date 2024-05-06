@@ -1,4 +1,4 @@
-module github.com/gofiber/contrib/paseto
+module github.com/usernamenotpresent/contrib/paseto
 
 go 1.18
 

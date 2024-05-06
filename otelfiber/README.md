@@ -6,9 +6,9 @@ id: otelfiber
 
 ![Release](https://img.shields.io/github/v/tag/gofiber/contrib?filter=otelfiber*)
 [![Discord](https://img.shields.io/discord/704680098577514527?style=flat&label=%F0%9F%92%AC%20discord&color=00ACD7)](https://gofiber.io/discord)
-![Test](https://github.com/gofiber/contrib/workflows/Tests/badge.svg)
-![Security](https://github.com/gofiber/contrib/workflows/Security/badge.svg)
-![Linter](https://github.com/gofiber/contrib/workflows/Linter/badge.svg)
+![Test](https://github.com/usernamenotpresent/contrib/workflows/Tests/badge.svg)
+![Security](https://github.com/usernamenotpresent/contrib/workflows/Security/badge.svg)
+![Linter](https://github.com/usernamenotpresent/contrib/workflows/Linter/badge.svg)
 
 [OpenTelemetry](https://opentelemetry.io/) support for Fiber.
 
@@ -21,7 +21,7 @@ Can be found on [OpenTelemetry Registry](https://opentelemetry.io/registry/instr
 This middleware supports Fiber v2.
 
 ```
-go get -u github.com/gofiber/contrib/otelfiber/v2
+go get -u github.com/usernamenotpresent/contrib/otelfiber/v2
 ```
 
 ## Signature
@@ -64,7 +64,7 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 
-	"github.com/gofiber/contrib/otelfiber"
+	"github.com/usernamenotpresent/contrib/otelfiber"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	stdout "go.opentelemetry.io/otel/exporters/stdout/stdouttrace"

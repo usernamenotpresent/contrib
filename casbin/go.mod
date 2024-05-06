@@ -1,4 +1,4 @@
-module github.com/gofiber/contrib/casbin
+module github.com/usernamenotpresent/contrib/casbin
 
 go 1.18
 

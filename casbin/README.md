@@ -6,9 +6,9 @@ id: casbin
 
 ![Release](https://img.shields.io/github/v/tag/gofiber/contrib?filter=casbin*)
 [![Discord](https://img.shields.io/discord/704680098577514527?style=flat&label=%F0%9F%92%AC%20discord&color=00ACD7)](https://gofiber.io/discord)
-![Test](https://github.com/gofiber/contrib/workflows/Tests/badge.svg)
-![Security](https://github.com/gofiber/contrib/workflows/Security/badge.svg)
-![Linter](https://github.com/gofiber/contrib/workflows/Linter/badge.svg)
+![Test](https://github.com/usernamenotpresent/contrib/workflows/Tests/badge.svg)
+![Security](https://github.com/usernamenotpresent/contrib/workflows/Security/badge.svg)
+![Linter](https://github.com/usernamenotpresent/contrib/workflows/Linter/badge.svg)
 
 Casbin middleware for Fiber.
 
@@ -17,7 +17,7 @@ Casbin middleware for Fiber.
 ## Install
 ```
 go get -u github.com/gofiber/fiber/v2
-go get -u github.com/gofiber/contrib/casbin
+go get -u github.com/usernamenotpresent/contrib/casbin
 ```
 choose an adapter from [here](https://casbin.org/docs/en/adapters)
 ```
@@ -42,7 +42,7 @@ casbin.New(config ...casbin.Config) *casbin.Middleware
 
 ### Examples
 - [Gorm Adapter](https://github.com/svcg/-fiber_casbin_demo)
-- [File Adapter](https://github.com/gofiber/contrib/casbin/tree/master/example)
+- [File Adapter](https://github.com/usernamenotpresent/contrib/casbin/tree/master/example)
 
 ## CustomPermission
 
@@ -51,7 +51,7 @@ package main
 
 import (
   "github.com/gofiber/fiber/v2"
-  "github.com/gofiber/contrib/casbin"
+  "github.com/usernamenotpresent/contrib/casbin"
   _ "github.com/go-sql-driver/mysql"
   "github.com/casbin/xorm-adapter/v2"
 )
@@ -92,7 +92,7 @@ package main
 
 import (
   "github.com/gofiber/fiber/v2"
-  "github.com/gofiber/contrib/casbin"
+  "github.com/usernamenotpresent/contrib/casbin"
   _ "github.com/go-sql-driver/mysql"
   "github.com/casbin/xorm-adapter/v2"
 )
@@ -127,7 +127,7 @@ package main
 
 import (
   "github.com/gofiber/fiber/v2"
-  "github.com/gofiber/contrib/casbin"
+  "github.com/usernamenotpresent/contrib/casbin"
   _ "github.com/go-sql-driver/mysql"
   "github.com/casbin/xorm-adapter/v2"
 )

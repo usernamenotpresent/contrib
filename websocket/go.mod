@@ -1,4 +1,4 @@
-module github.com/gofiber/contrib/websocket
+module github.com/usernamenotpresent/contrib/websocket
 
 go 1.21
 
@@ -21,7 +21,6 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/savsgio/gotils v0.0.0-20240303185622-093b76447511 // indirect
-	github.com/usernamenotpresent/contrib v0.0.0-20240501215048-ce9118b91b85 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	golang.org/x/net v0.23.0 // indirect
